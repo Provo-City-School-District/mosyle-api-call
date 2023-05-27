@@ -1,9 +1,4 @@
 <?php
-//credentails for the vault
-// $vUser = $_ENV['VUSER'];
-// $vPass = $_ENV['VPASS'];
-// $vLoc = $_ENV['VLOC'];
-// $vdata = $_ENV['VDATA'];
 
 //mosyle credentials
 $username = $_ENV['MOSYLEU'];
@@ -31,8 +26,5 @@ $output = curl_exec($ch); // $output contains the output string
 
 // close curl resource to free up system resources
 curl_close($ch);
-
-
-
 
 echo $output;
