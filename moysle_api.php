@@ -11,7 +11,7 @@ $parameters = array(
     'accessToken' => $_ENV['MOSYLEAPI'],
     'options' => array(
       'os' => 'mac',
-      'specific_columns' => array('serial_number','date_checkin', 'installed_memory','cpu_model','osversion')
+      // 'specific_columns' => array('serial_number','date_checkin', 'installed_memory','cpu_model','osversion')
     )
   );
 
